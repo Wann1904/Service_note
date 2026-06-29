@@ -16,10 +16,12 @@ Service Note adalah aplikasi pencatatan data servis perangkat yang dibuat menggu
 ## Cara Menjalankan
 1. Clone repository
 2. Jalankan:
+
    ```bash
    flutter pub get
    ```
 3. Jalankan aplikasi:
+
    ```bash
    flutter run
    ```
