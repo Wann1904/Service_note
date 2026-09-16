@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:Project_Uas/dbHelp.dart';
-import 'package:Project_Uas/Main_Page.dart';
 
 class Diagnose extends StatefulWidget {
   const Diagnose({super.key});
