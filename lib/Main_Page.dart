@@ -1,3 +1,4 @@
+import 'package:Project_Uas/Diagnose.dart';
 import 'package:Project_Uas/dbHelp.dart';
 import 'package:flutter/material.dart';
 import 'package:Project_Uas/login.dart';
@@ -818,6 +819,15 @@ class _MainPageState extends State<MainPage> {
                 ),
               ),
         actions: [
+          IconButton(
+            icon: const Icon(Icons.logout, color: Color(0xFF6C63FF)),
+            onPressed: () {
+              Navigator.pushReplacement(
+                context,
+                MaterialPageRoute(builder: (_) => const Diagnose()),
+              );
+            },
+          ),
           if (!isSearching)
             IconButton(
               icon: const Icon(Icons.search, color: Color(0xFF6C63FF)),
