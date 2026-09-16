@@ -1,6 +1,6 @@
 # Service Note
 
-Service Note adalah aplikasi pencatatan data servis perangkat yang dibuat menggunakan Flutter sebagai proyek UAS.
+Service Note adalah aplikasi pencatatan data servis perangkat yang dibuat menggunakan Flutter untuk membantu teknisi mencatat data kerusakan customer.
 
 ## Fitur
 - Menambah data servis
